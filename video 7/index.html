@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag |input, select, textarea ,btn and more</title>
+</head>
+
+<body>
+    <h1>Form tag |input, select, textarea ,btn and more</h1>
+    <form action="post">
+        <div>
+            <label for="text">Name:</label>
+            <input type="text" name="text" id="text" placeholder="Enter your name" autofocus pattern="[A-Za-z]{3,}" required>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+        </div>
+
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" name="fruit" id="apple" value="apple">
+
+        <label for="banena">Banena</label>
+        <input type="checkbox" name="fruit" id="banena" value="banena">
+
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="fruit" id="mango" value="mango">
+        </div>
+
+        <div>
+            <label for="feedback">Enter your Feedback</label>
+            <textarea name="feedback" id="feedback" rows="6" cols="50"></textarea>
+        </div>
+        <div>
+            <select name="fruit" id="">
+                <option value="apple">Apple</option>
+                <option value="banena">Banena</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>

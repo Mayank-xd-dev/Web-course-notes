@@ -1,0 +1,32 @@
+       body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            align-items:center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        caption {
+            color: rgb(0, 179, 255);
+            border: black solid 1px;
+            border-radius: 15px;
+            background-color: cyan;
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th {
+            background-color: #00d9ff58;
+            border-top: cornflowerblue 2px solid;
+            border-radius: 5px;
+            font-size: large;
+        }
+
+        td {
+            background-color: lightslategray;
+            border:2px solid black;
+            border-radius: 15px;
+        }
